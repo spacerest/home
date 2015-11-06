@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+	<html lang="en">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/fun.css">
+	<title>art studio</title>
+</head>
+<body>
+<header>
+	<nav>
+		<a href="office.html">office</a>
+	</nav>
+</header>
+<article>
+<div class="canvas">
+<div class="ohs">
+	<p> ____****____<br>___&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*___<br>_*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*_</p>
+	<p class="erxes">XXX-------------XXX<br>xxx-------------xxx<br>XXX-------------XXX<br>xxx----&nbsp;&nbsp;&nbsp;&nbsp;----xxx<br>XXX--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--XXX</p>
+</div>
+</div>
+<div class="notes">
+<ul>
+	<li>when selectors are combined, need to be read right to left for specific --&gt; least specific. far right = "key selector," which ids which exactly element the style applies to. any left selectors are "prequalifiers."</li>
+	<li>remember -- 0-0-1 is low type, 0-1-0 is medium class, 1-0-0 is high id</li>
+	<li>a/ .class .class { would be 0-0-2 <br>b/ .class type { would be 0-1-1 <br>c/ #id .class type { would be 1-1-1 <br>d/ #id #id type { would be 2-0-1.<br>seems like weight would go d&gt;c&gt;b&gt;a</li> 
+	<li>how to be as modular as possible w/ styles: layer on many styles via many classes</li>
+</div>
+<div class="canvas">
+	<div class="up-down">
+		<div class="down-up"></div>
+	</div>
+
+</div>
+</article>
+<footer>
+	<nav>
+		<a href="office.html">office</a>
+	</nav>
+</footer>
+</body>
+</html>

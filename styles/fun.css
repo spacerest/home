@@ -1,0 +1,19 @@
+.ohs p {
+	color: #ff6600;
+	background-color: #cce0ff;
+	}
+.ohs .erxes {
+	color: #0066ff;
+	background-color: #ffe0cc;
+	}
+.up-down {
+	background-color: #00ebb0;
+	height: 110px;
+	width: 320px;
+	padding: 20px;
+	}
+.down-up {
+	background-color: #b0ebf0;
+	height: 220px;
+	width: 420px;
+	}

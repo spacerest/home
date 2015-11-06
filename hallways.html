@@ -1,0 +1,124 @@
+<!--This is a home page...-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SMP</title>
+	<link rel="stylesheet" href="styles/style.css" type="text/css">
+</head>
+<body>
+<header>
+	<h1>Inf I'm Learning</h1>
+	<h3><i>(and want to remember)</i></h3>
+	<nav>
+		<a href="bedroom.html">bedroom</a>
+		<a href="garage.html">garage</a>
+		<a href="kitchen.html">kitchen</a>
+		<a href="hallways.html">hallway</a>
+		<a href="bathroom.html">bathroom</a>
+		<a href="living_room.html">living room</a>
+		<a href="office.html">office</a>
+	</nav>
+</header>
+<section>
+	<section>
+		<h3>from shay howe, who you can follow on twitter <a id="twitter" href="https://twitter.com/shayhowe" target="_blank">here</a></h3>
+		<p>and read his tutorials around <a href="http://learn.shayhowe.com/html-css/getting-to-know-html/" target="_blank">here</a></p>
+	</section>
+	<section>
+		<p>this is another section within a section</p>
+	</section>
+</section>
+<article>
+	<div class="html_learning">
+		<p>HTML self-closing elements</p>
+		<p>
+			<ul>
+				<li><code>< br ></code></li>
+				<li><code>< img ></code></li>
+				<li><code>< meta ></code></li>
+				<li><code>< wbr ></code></li>
+				<li><code>< embed ></code></li>
+				<li><code>< input ></code></li>
+				<li><code>< param ></code></li>
+				<li><code>< hr ></code></li>
+				<li><code>< link ></code></li>
+				<li><code>< source ></code></li>
+			</ul>
+		</p>
+	</div>
+	<div class="css_learning">
+		<p>Difference between div classes and div ids</p>
+			<ul>
+				<li>classes can be used more than once, ids can only be used once (per page)</li>
+				<li>"if used"?!?!</li>
+				<li>Ahhhh. IDs are good for linking to parts of pages, like the <a href="#twitter">twitter link up there^^^</a></li>
+			</ul>
+		<p>What's a CSS reset?</p>
+			<ul>
+				<li>they take common html elements with predef'd style & provide unified style</li>
+				<li>usually remove sizing, margins, paddings, extra styles</li>
+				<li>always at the top (due to cascading)</li>
+				<li>what kinds?
+				 <ul>
+					<li><a href="http://meyerweb.com/eric/tools/css/reset/" target="_blank">Eric Meyer's reset</a></li>
+					<li><a href="http://necolas.github.io/normalize.css/" target="_blank">Normalize.css (trickier, more control?)</a></li>
+				</ul>
+			</ul>
+	</div>
+	<div class="html_learning">
+		<p>HTML Semantics?</p>
+			<ul>
+				<li><code>< div ></code> and <code>< span ></code> hold no semantic value -- stylistic only</li>
+				<li>headings are semantic! not for size! they can help search engines</li>
+				<li><code>< strong ></code> and <code>< b ></code> both make text bold, but <code>< strong ></code> is more semantically <strong>powerful</strong></li> 
+				<li>
+					<p>I <em>love</em> Chicago!</p>
+					<p>The name <i>Shay</i> means <i>a gift</i></p>
+				</li>
+				<li>structurally based elements in html5
+				<ul>
+					<li>header = identifies top of page</li>
+					<li>nav = important links, nav</li> 
+					<li>article = stand-alone-able content</li>
+					<li>section = thematic grouping of content which often includes a heading - kind of generic, but useful for identifying related content. gives hierarchy, breaks up a page.</li>
+					<li>aside = asides. remember, won't necessary be on r/l side of page, bc structural elements are block-level = new line, full available width</li>
+					<li>footer = footer</li></ul>which can be used multiple times per page(as long as they match up, semantically)
+				<li>how to decide which to use:
+				<ul>
+					<li>just for styling purposes? div</li>
+					<li>adds to outsline and can stand alone? article</li>
+					<li>adds to the document outline and represents a thematic group of content(????) section</li>
+				</ul>
+			</ul> 
+		<p>Difference between block/inline elements</p>
+			<ul>  
+				<li>block-level = stack on top, occupy any width. can nest inside eachother, can wrap inline-level elements. usually bigger pieces of content (like p's)</li>
+				<li>inline-level = don't begin on new line. fall into normal flow of doc, line up one after other, maintain width of their content. can nest inside each other, but can't wrap block-level els. usually smaller content, (like words)</p>
+			</ul> 
+	</div>
+	<div class="css_learning">
+		<p>CSS specificity points - trump casc position</p>
+		<ul>
+			<li>type selector -- lowest specif weight = 0-0-1</li>
+			<li>class selector -- medium specif weight = 0-1-0</li>
+			<li>id selector -- high specif weight = 1-0-0</li>
+			<li>three columns ^^ (id-class-type)</li>
+		</ul>
+	</div>
+</article>
+<footer>
+	<nav>
+		<a href="bedroom.html">bedroom</a>
+		<a href="garage.html">garage</a>
+		<a href="kitchen.html">kitchen</a>
+		<a href="hallways.html">hallway</a>
+		<a href="bathroom.html">bathroom</a>
+		<a href="living_room.html">living room</a>
+		<a href="office.html">office</a>
+	</nav>
+	<small>&copy; My Info</small>
+</footer>
+</body>
+</html>
+
