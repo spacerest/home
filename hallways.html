@@ -20,6 +20,7 @@
 		<a href="office.html">office</a>
 	</nav>
 </header>
+<div class="hallway">
 <section>
 	<section>
 		<h3>from shay howe, who you can follow on twitter <a id="twitter" href="https://twitter.com/shayhowe" target="_blank">here</a></h3>
@@ -56,7 +57,7 @@
 			</ul>
 		<p>What's a CSS reset?</p>
 			<ul>
-				<li>they take common html elements with predef'd style & provide unified style</li>
+				<li>they take common html elements with predef'd style &amp; provide unified style</li>
 				<li>usually remove sizing, margins, paddings, extra styles</li>
 				<li>always at the top (due to cascading)</li>
 				<li>what kinds?
@@ -91,11 +92,7 @@
 					<li>adds to the document outline and represents a thematic group of content(????) section</li>
 				</ul>
 			</ul> 
-		<p>Difference between block/inline elements</p>
-			<ul>  
-				<li>block-level = stack on top, occupy any width. can nest inside eachother, can wrap inline-level elements. usually bigger pieces of content (like p's)</li>
-				<li>inline-level = don't begin on new line. fall into normal flow of doc, line up one after other, maintain width of their content. can nest inside each other, but can't wrap block-level els. usually smaller content, (like words)</p>
-			</ul> 
+		
 	</div>
 	<div class="css_learning">
 		<p>CSS specificity points - trump casc position</p>
@@ -105,8 +102,21 @@
 			<li>id selector -- high specif weight = 1-0-0</li>
 			<li>three columns ^^ (id-class-type)</li>
 		</ul>
+		<p>inline and positioning stuff</p>	
+		<ul>
+			<li>inline-level elements won't accept width/height properties or values, but block and inline-block will</p>
+			<li>margin property: doesn't accept top and bottom for inline-level elements (but yes for block and inline-block)</li>
+		</ul>	
+	<p>Difference between block/inline elements</p>
+			<ul>  
+				<li>block-level = stack on top, occupy any width. can nest inside eachother, can wrap inline-level elements. usually bigger pieces of content (like p's)</li>
+				<li>inline-level = don't begin on new line. fall into normal flow of doc, line up one after other, maintain width of their content. can nest inside each other, but can't wrap block-level els. usually smaller content, (like words)</li>
+				<li>shorthand for specifying margins:top bottom right left:TBRLpx<br>top bottom/right left:TBpx RLpx</li>
+
+			</ul> 
 	</div>
 </article>
+</div>
 <footer>
 	<nav>
 		<a href="bedroom.html">bedroom</a>
